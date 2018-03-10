@@ -1,0 +1,561 @@
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    /* Start Navbar*/
+
+    .Section-navbar .div-navabr{
+        margin: 0 auto;
+        padding: 0;
+       
+    }
+
+
+    .Section-navbar .navbar ul{
+        font-family:monospace;
+        font-size: 12px;
+
+    }
+
+
+    .Section-navbar .navbar .logo{
+        padding: 10px;
+        margin-left: 35%;
+    }
+    /* End navbar*/
+
+  /*Start Main page*/ 
+
+  .div-main-page{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+ .div-main-page .back-image {
+     
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/two%20image.jpg);
+
+}
+
+.div-main-page .back-image .back-black {
+    background-color: #000;
+    opacity: 0.9;
+    
+}
+
+.div-main-page .features{
+    width: 100%;
+    height: 100%;
+}
+
+.div-main-page .features .fet{
+    max-width: 80%;
+}
+ 
+.div-main-page .features .fet h2{
+    text-align: center;
+    margin: 10px;
+}
+
+  /*End main page*/
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Nav bar*/
+
+    .Section-navbar .div-navabr{
+        margin: 0 auto;
+        padding: 0;
+       
+    }
+
+    .Section-navbar .div-navabr .navbar{
+        position: relative;
+    }
+
+    .Section-navbar .navbar ul{
+        display: grid;
+        text-align: center;
+        padding-top: 40px;
+        margin-right: 33%;
+        margin-top: -60px;
+    }
+
+    .Section-navbar .navbar .logo{
+        margin-left: 30%;
+    }
+    /* End nav bar*/
+
+
+    /*Start Main*/
+
+    .div-main-page .features {
+    }
+
+    .div-main-page .features .fet {
+
+    }
+
+    /* End Main*/
+
+}
+
+
+
+
+
+/* Start Image Layot*/
+
+
+
+.main-haeder{
+    background-image: url(../image/one%20image.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    height:710px;
+    width: 100%;
+    resize: 400px;
+    
+}
+
+.main-haeder .intro{
+    color: rgba(242, 234, 234, 0.97);
+    padding-top: 250px;
+    text-align: center;
+}
+
+.main-haeder .intro h2{
+    font-size: 30px;
+    border-top: 3px solid rgba(13, 13, 13, 0.88);
+    border-bottom: 3px solid rgba(13, 13, 13, 0.88);
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.main-haeder .intro h2 img{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: -15px;
+}
+
+.main-haeder .intro button {
+    background: none;
+    color: #fff;
+    border: none;
+    border: 3px solid rgba(13, 13, 13, 0.88);
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+    transition: 0.5s;
+    
+}
+
+.main-haeder .intro button:hover{
+    background-color: rgba(244, 237, 237, 0.91);
+    color: rgba(23, 23, 25, 0.91);
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    transition: 0.5s;
+
+    
+}
+
+.main-haeder .intro button:active{
+    margin: 5px;
+}
+
+/* End Image Layot*/
+
+
+
+/* Star NavBar */
+
+
+.Section-navbar .div-navabr{
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.Section-navbar .navbar ul{
+    line-height: 50px;
+    float: right;
+    list-style: none;
+    transition: 0.4s;
+    
+
+    
+}
+.Section-navbar .navbar .logo{
+    float: left;
+    line-height: 60px;
+  
+}
+.Section-navbar .navbar .logo a{
+    transition: 0.4s;
+    text-decoration: none;
+    color: #fff;
+}
+.Section-navbar .navbar .logo span{
+    color: rgb(255, 186, 31);
+}
+
+.Section-navbar .navbar .logo span:hover{
+    transition: 0.4s;
+     color: #fff;
+}
+
+.Section-navbar .navbar .logo a:hover{
+    transition: 0.4s;
+    color: #cccccc;
+}
+
+.Section-navbar .navbar ul li{
+    
+    float: left;
+    padding: 5px 10px;
+    
+}
+
+.Section-navbar .navbar ul li .main{
+     
+    color: rgb(255, 186, 31);
+    
+}
+
+.Section-navbar .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+
+.Section-navbar .navbar ul li a:hover{
+    color: rgb(255, 186, 31);
+    transition: 0.4s;
+    
+    
+}
+
+/* End NavBar */
+
+
+ /*Start  Main Page*/
+
+    
+ .Section-navbar .div-navabr{
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+.Section-navbar .div-navabr .navbar{
+    position: relative;
+}
+
+.Section-navbar .navbar ul{
+    line-height: 65px;
+    float: right;
+    list-style: none;
+    transition: 0.4s;
+}
+
+.Section-navbar .navbar .logo{
+    float: left;
+    line-height: 75px;
+
+}
+/* End navbar*/
+
+/*Start Main page*/ 
+
+.div-main-page{
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+
+.div-main-page .back-image {
+ 
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+height: 100%;
+background-image: url(../image/two%20image.jpg);
+
+}
+
+.div-main-page .back-image .back-black {
+background-color: #000;
+opacity: 0.9;
+
+}
+
+.div-main-page .features{
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    color: #342d1f;
+    overflow: hidden;
+    font-family: monospace;
+    font-size:20px;
+    padding: 20px;
+    
+}
+ 
+
+.div-main-page .features .fet{
+    min-width: 200px;
+    max-width: 329px;
+    max-height: 20%;
+    overflow: hidden;
+    padding: 20px;
+    float: left;
+    text-align: justify;
+    opacity: 1;
+    color: #fff;   
+} 
+
+.div-main-page .features .fet h2{
+    text-align: center;
+    margin: 10px;
+}
+
+ /*End Main Page*/
+
+
+/*Start About Me*/
+
+
+
+
+.section-about-me{
+    width: 100%;
+    height: 700%;
+    box-shadow:2px -14px 20px 0px #888888;
+    
+}
+.section-about-me .back-image{
+    width: 100%;
+    height: 100%; 
+    background-image: url(../image/pexels-photo-270348.jpeg);
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-attachment: fixed;
+}
+
+.section-about-me .back-image .back-black{
+    opacity: 0.8;
+    background-color: #000;
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.section-about-me .back-image .back-black .about-me{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: 100%;
+}
+
+.section-about-me .back-image .back-black .about-me h2{
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    border-bottom: 2px solid #e6e6d8;
+    border-top: 2px solid #fff;
+    border-top: 2px solid #fff;
+    padding: 15px;
+    width: 30%;
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 30px;
+    
+    
+}
+
+.section-about-me .back-image .back-black .about-me p{
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    border-bottom: 2px solid #e6e6d8;
+    padding: 15px;
+    width: 40%;
+    margin:0 auto;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+    
+}
+
+
+/*Start About Me*/
+
+
+
+/*Start Footer*/
+
+
+footer{
+    margin-top: 20px;
+    width: 100%;
+    background-image: url(../image/pexels-photo-136320.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow:2px -14px 20px 0px #888888;
+    min-height: 300px;
+}
+
+footer .fo-back-black{
+    background-color: #000;
+    min-height: 350px;
+    height: 100%;
+    opacity: 0.8;
+    padding-bottom: 20px;
+}
+
+footer .fo-back-black .contant{
+    margin:0 auto;
+    width: 100%;
+    height: 100%;
+    color: #342d1f;
+    overflow: hidden;
+    font-family: monospace;
+    font-size:20px;
+    padding: 10px;
+
+    
+}
+
+
+
+footer .fo-back-black .contant .contact{
+    width: 45%;
+    padding: 20px;
+    float: left;
+    text-align: justify;
+    opacity: 1;
+    color: #fff;
+     
+}
+
+footer .fo-back-black .contant .contact{
+    overflow: visible;
+}
+
+footer .fo-back-black .contant .contact h2{
+    padding: 10px;
+    color: rgb(255, 186, 31);
+}
+
+
+footer .fo-back-black .contant .contact p a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4;
+}
+footer .fo-back-black .contant .contact p a:hover{
+   color: rgb(255, 186, 31);
+}
+
+footer .fo-back-black .social-media{
+    width: 100%;
+    height: 100%;
+    color: #342d1f;
+    overflow: hidden;
+    font-family: monospace;
+    font-size:20px;
+    padding: 10px;
+}
+
+footer .fo-back-black .social-media ul{
+    list-style: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer .fo-back-black .social-media ul li{
+    display: inline;
+    opacity: 1;
+    text-align: center;
+}
+
+footer .fo-back-black .social-media ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 5px;
+    transition: 0.3s;
+    
+}
+
+footer .fo-back-black .social-media ul li a:hover{
+    color: rgb(255, 186, 31);
+    transition: 0.3s;
+}
+
+footer .fo-back-black .social-media p{
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+footer .fo-back-black .social-media p a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+footer .fo-back-black .social-media p a:hover{
+    color: rgb(255, 186, 31);
+    transition: 0.3s;
+    
+}
+
+
+
+/*End Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
