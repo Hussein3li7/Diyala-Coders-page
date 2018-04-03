@@ -1,4 +1,5 @@
 *{
+    
 margin: 0;
 padding: 0;
 }
@@ -6,9 +7,47 @@ padding: 0;
     width: 70%;
     margin: auto;
 }
+a:hover{
+    color: rgb(255, 186, 31);
+    transition: 0.3s;
+}
+@font-face{
+    font-family: "fontawesome";
+    src: url(fonts/fontawesome-webfont.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face{
+
+    font-family: "TELE2";
+    src: url(fonts/fa-regular-400.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+body{
+    font-family: 'Mina', sans-serif;
+}
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width:1600px){
+    .register-section .container .fet-reg{
+        width: 40%;
+        float: left;
+        margin: 3%;
+        padding-top: 7%;
+        height: 100%;
+        
+        }
+    
+        .register-section .container .fet-reg form{
+            width:80%;
+            
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
 
     /* Start Navbar*/
 
@@ -25,11 +64,6 @@ padding: 0;
 
     }
 
-
-    .Section-navbar .navbar .logo{
-        padding: 10px;
-        margin-left: 35%;
-    }
     /* End navbar*/
 
   /*Start Main page*/ 
@@ -56,13 +90,18 @@ padding: 0;
     
 }
 
-.div-main-page .features{
+.div-main-page .features {
+    margin: 0 auto;
     width: 100%;
     height: 100%;
+    color: #342d1f;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 .div-main-page .features .fet{
-    max-width: 80%;
+    width: 40%;
 }
  
 .div-main-page .features .fet h2{
@@ -72,9 +111,91 @@ padding: 0;
 
   /*End main page*/
 
+
+  
+/*Start Register Section*/
+
+
+.register-section{
+    width: 100%;
+    height: 500px;
+    box-shadow:2px -14px 20px 0px #888888;
+    color:#fff;
+    
+    
 }
 
-@media screen and (max-width: 500px) {
+.register-section .back-image{
+    width: 100%;
+    height: 100%; 
+    background-image: url(../image/pexels-photo-270348.jpeg);
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-attachment: fixed;
+    
+}
+
+
+.register-section .back-black{
+    opacity: .9;
+    background-color: #00a8ff;
+    width: 100%;
+    height: 100%; 
+    
+    
+}
+.register-section .container .fet-reg{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding-top: 7%;
+    height: 100%;
+    
+    }
+
+    .register-section .container .fet-reg form{
+        width:80%;
+        
+}
+
+.register-section .container .fet-reg form  button{
+    background: none;
+    margin-top:3%;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 3%;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    float:right;
+}
+
+.register-section .container .fet-reg form input{
+    padding: 1%;
+    width: 100%;
+    margin: 1%;
+    border-radius: 10px;
+    font-family: 'El Messiri', sans-serif;
+    
+}
+
+.register-section .container .fet-reg:last-child p{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+    text-align: right;
+}
+.register-section .container .fet-reg:last-child p{
+margin-top: 40px;
+}
+
+/*End Register Section*/
+
+
+
+}
+
+@media screen and (max-width: 700px) {
 
     /* Nav bar*/
 
@@ -102,16 +223,20 @@ padding: 0;
     /* End nav bar*/
 
 
-    /*Start Main*/
+    /*Start Register*/
 
-    .div-main-page .features {
+
+    .register-section .container .fet-reg{
+        width: 100%;
+    
+        }
+    
+        .register-section .container .fet-reg form{
+       width: 100%;
     }
 
-    .div-main-page .features .fet {
 
-    }
-
-    /* End Main*/
+    /* End Register*/
 
 }
 
@@ -135,7 +260,7 @@ padding: 0;
 
 .main-haeder .intro{
     color: rgba(242, 234, 234, 0.97);
-    padding-top: 250px;
+    padding-top: 200px;
     text-align: center;
 }
 
@@ -156,6 +281,15 @@ padding: 0;
     margin-bottom: -15px;
 }
 
+#Logo_name{
+    color: #fff;
+    font-family: 'Mina', sans-serif;
+    
+}
+#Logo_name span{
+    
+    color: rgb(255, 179, 0);
+}
 .main-haeder .intro button {
     background: none;
     color: #fff;
@@ -172,9 +306,9 @@ padding: 0;
 }
 
 .main-haeder .intro button:hover{
-    background-color: rgba(244, 237, 237, 0.91);
-    color: rgba(23, 23, 25, 0.91);
-    border: 3px solid #ffffff;
+    background-color: rgba(255, 151, 31, 0.91);
+    color: rgba(241, 241, 241, 0.979);
+ 
     border-radius: 4px;
     transition: 0.5s;
 
@@ -183,6 +317,36 @@ padding: 0;
 
 .main-haeder .intro button:active{
     margin: 5px;
+}
+
+
+.div-serach{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+
+}
+.div-serach input{
+    font-family: monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    border: 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.div-serach input:checked{
+    border: 0px;
+}
+
+.div-serach .icone-search{
+    color: #585858;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 30px;
 }
 
 /* End Image Layot*/
@@ -306,12 +470,14 @@ background-image: url(../image/two%20image.jpg);
 }
 
 .div-main-page .back-image .back-black {
-background-color: #000;
+background-color: #4b4b4b;
 opacity: 0.9;
 
 }
 
+
 .div-main-page .features{
+  /**/
     margin:0 auto;
     width: 100%;
     height: 100%;
@@ -320,11 +486,14 @@ opacity: 0.9;
     font-family: monospace;
     font-size:20px;
     padding: 20px;
+ 
+
     
 }
  
 
 .div-main-page .features .fet{
+
     min-width: 200px;
     max-width: 329px;
     max-height: 20%;
@@ -338,10 +507,49 @@ opacity: 0.9;
 
 .div-main-page .features .fet h2{
     text-align: center;
+    font-weight: normal;
     margin: 10px;
+    font-size: 50px;
 }
 
  /*End Main Page*/
+
+ /*Start Video Section*/
+
+ .back-image-video{
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/one%20image.jpg);
+    background-attachment: fixed;
+ }
+
+ .back-black-video{
+     width: 100%;
+     height: 100%;
+     background-color: black;
+     opacity: 0.8;
+ }
+ 
+ .contant-video{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   
+}
+.video{
+    width: 30%;
+    float: left;
+    margin-right:5px;
+}
+.contant-video h3{
+    text-align: center;
+    padding: 10PX;
+}
+
+ /*End Video Section*/
 
 
 /*Start About Me*/
@@ -411,7 +619,75 @@ opacity: 0.9;
 }
 
 
-/*Start About Me*/
+/*End About Me*/
+
+
+/*Start Register Section*/
+
+
+.register-section{
+    width: 100%;
+    height: 500px;
+    box-shadow:2px -14px 20px 0px #888888;
+    color:#fff;
+    
+    
+}
+
+.register-section .back-image{
+    width: 100%;
+    height: 100%; 
+    background-image: url(../image/pexels-photo-270348.jpeg);
+    background-size: cover;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-attachment: fixed;
+    
+}
+
+
+.register-section .back-black{
+    opacity: .9;
+    background-color: #000;
+    width: 100%;
+    height: 100%; 
+    
+    
+}
+
+
+.register-section .container .fet-reg form  button{
+    background: none;
+    margin-top:3%;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 3%;
+    border: 2px solid #2ecc71;
+    cursor: pointer;
+    float:right;
+}
+
+.register-section .container .fet-reg form input{
+    padding: 1%;
+    width: 100%;
+    margin: 1%;
+    border-radius: 10px;
+    font-family: 'El Messiri', sans-serif;
+    
+}
+
+.register-section .container .fet-reg:last-child p{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
+    text-align: right;
+}
+.register-section .container .fet-reg:last-child p{
+margin-top: 40px;
+}
+
+/*End Register Section*/
+
 
 
 
@@ -419,6 +695,7 @@ opacity: 0.9;
 
 
 footer{
+    position: relative;
     margin-top: 20px;
     width: 100%;
     background-image: url(../image/pexels-photo-136320.jpeg);
@@ -429,10 +706,10 @@ footer{
 }
 
 footer .fo-back-black{
-    background-color: #000;
+    background-color: #34495e;
     min-height: 350px;
     height: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     padding-bottom: 20px;
 }
 
@@ -536,11 +813,7 @@ footer .fo-back-black .social-media p a:hover{
 }
 
 
-
 /*End Footer*/
-
-
-
 
 
 
